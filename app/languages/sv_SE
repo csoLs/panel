@@ -52,6 +52,7 @@ return array(
     // dashboard
     'dashboard' => 'Dashboard',
     'dashboard.index.pages.title' => 'Sidor',
+    'dashboard.index.pages.edit' => 'Edit',
     'dashboard.index.pages.add' => 'Lägg till',
     'dashboard.index.site.title' => 'Webbsidans URL',
     'dashboard.index.account.title' => 'Ditt konto',
@@ -59,7 +60,7 @@ return array(
     'dashboard.index.metatags.title' => 'Sidvariabler',
     'dashboard.index.metatags.edit' => 'Ändra',
     'dashboard.index.history.title' => 'Dina senaste uppdateringar',
-    'dashboard.index.history.text' => 'Dina senaste modifierade sidor kommer att synas här för att de ska lätt att hitta de igen.',
+    'dashboard.index.history.text' => 'Dina senaste modifierade sidor kommer att synas här för att du lätt ska hitta de igen.',
 
     // metatags
     'metatags' => 'Sidvariabler',
@@ -71,18 +72,20 @@ return array(
     'pages.show.changeurl' => 'Ändra URL',
     'pages.show.delete' => 'Ta bort denna sida',
     'pages.show.subpages.title' => 'Sidor',
+    'pages.show.subpages.edit' => 'Edit',
     'pages.show.subpages.add' => 'Lägg till',
     'pages.show.subpages.empty' => 'Den här sidan har inga undersidor',
     'pages.show.files.title' => 'Filer',
+    'pages.show.files.edit' => 'Edit',
     'pages.show.files.add' => 'Lägg till',
     'pages.show.files.empty' => 'Den här sidan har inga filer',
     'pages.show.error.permissions.title' => 'Sidan är inte skrivbar',
     'pages.show.error.permissions.text'  => 'Var god och kontrollera behörigheten för content-mappen och alla filer.',
     'pages.show.error.permissions.retry'  => 'Försök igen',
-    'pages.show.error.notitle.title' => 'Blueprinten har inget title-fält',
+    'pages.show.error.notitle.title' => 'Blueprinten har inget titlr-fält',
     'pages.show.error.notitle.text' => 'Var god och lägg till ett title-fält och försök igen',
     'pages.show.error.notitle.retry' => 'Försök igen',
-    'pages.show.error.form'  => 'var god och fyll i alla fält korrekt',
+    'pages.show.error.form'  => 'Var god och fyll i alla fält korrekt',
 
     'pages.add.title.label' => 'Lägg till en ny sida',
     'pages.add.title.placeholder' => 'Titel',
@@ -191,7 +194,7 @@ return array(
     'users.avatar.drop' => 'Släpp en profilbild här…',
     'users.avatar.click' => '…eller klicka för att ladda upp',
     'users.avatar.error.type' => 'Du kan bara ladda upp JPG, PNG och GIF filer',
-    'users.avatar.error.folder.headline' => 'avatar-mappen är inte skrivbar',
+    'users.avatar.error.folder.headline' => 'Avatar-mappen är inte skrivbar',
     'users.avatar.error.folder.text' => 'Var vänlig och skapa mappen <strong>/assets/avatars</strong> och gör det skrivbar för att kunna ladda upp profilbilder.',
     'users.avatar.delete.error' => 'Profilbilden kunde inte tas bort',
     'users.avatar.delete.success' => 'Profilbilden har tagits bort',
@@ -274,7 +277,7 @@ return array(
 
     // error page
     'error' => 'Fel',
-    'error.headline' => 'Error',
+    'error.headline' => 'Fel',
 
   )
 );
